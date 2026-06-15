@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+  <title>X-MEN STORE</title>
+  <style>
+  body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+.header {
+  background-color: #900808;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+}
+.logo {
+  width: 100px;
+}
+.btn {
+  background-color: #ee626b;
+  border-radius: 15px;
+  padding: 5px 15px;
+  color: #ffffff;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #f2858c;
+}
+
+.header-links a {
+  color: white;
+  padding: 5px 15px;
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+.header-links a:hover {
+  background-color: #900808;
+}
+
+.landing-page {
+  background-color: #900808;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 50px;
+  color: #ffffff;
+  border-radius: 0 0 50px 50px;
+}
+
+.landing-page-left-section {
+  width: 500px;
+}
+
+.landing-page-search input {
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  height: 30px;
+  padding: 0 10px;
+}
+
+.landing-page-search button {
+  position: absolute;
+  left: 200px;
+  height: 30px;
+}
+
+.landing-page-image-container img {
+  border-radius: 20px;
+  width: 250px;
+}
+
+.trending-container {
+  padding: 25px 50px;
+}
+
+.trending-container span {
+    color: #ee626b;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.trending-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trending-header h1 {
+    margin-top: 0;
+}
+
+.trending-cards {
+    display: flex;
+    gap: 12px;
+}
+
+.card {
+    width: 300px;
+    background-color: #EEEEEE;
+    border-radius: 20px;
+}
+
+.card .thumb {
+    border-radius: 20px 20px 0 0;
+}
+
+.card-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 25px;
+}
+
+.card-info img {
+    width: 50px;
+}
+  </style>
+</head>
+<body>
+ 
+  <div class="header">
+    <img class="logo" src="images/x-men image.png" />
+    <div class="header-links">
+      <a href="test.html">Home</a>
+      <a href="#">Our shop</a>
+      <a href="#">Contact</a>
+      <a href="#">About</a>
+      <button class="btn">Sign in</button>
+    </div>
+  </div>
+
+  
+  <div class="landing-page">
+    <div class="landing-page-left-section">
+      <span>Welcome To X-MEN!</span>
+      <h1>Best Gaming Site ever!</h1>
+      <p>
+        X-MEN Gaming is the best store that you can buy games from <i class="fa fa-chrome" aria-hidden="true"></i>
+ 
+        because we give you the best deals that you can get online 
+      </p>
+      <div class="landing-page-search">
+        <input placeholder="Start typing..." />
+        <button class="btn">SEARCH</button>
+      </div>
+    </div>
+    <div class="landing-page-image-container">
+      <img src="images/banner-image.jpg" />
+    </div>
+  </div>
+
+  
+  <div class="trending-container">
+    <span>Trending</span>
+    <div class="trending-header">
+      <h1>Trending Games</h1>
+      <button class="btn">view all</button>
+    </div>
+    <div class="trending-cards">
+      <div class="card">
+        <img class="thumb" src="images/trending-01.jpg" />
+        <div class="card-info">
+          <div class="card-name">
+            <p>Action</p>
+            <h3>Assasins creed</h3>
+          </div>
+          <a>
+            <img src="images/online-shopping.png" />
+          </a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img class="thumb" src="images/trending-01.jpg" />
+        <div class="card-info">
+          <div class="card-name">
+            <p>Action</p>
+            <h3>Assasins creed</h3>
+          </div>
+          <a>
+            <img src="images/online-shopping.png" />
+          </a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img class="thumb" src="images/trending-01.jpg" />
+        <div class="card-info">
+          <div class="card-name">
+            <p>Action</p>
+            <h3>Assasins creed</h3>
+          </div>
+          <a>
+            <img src="images/online-shopping.png" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
